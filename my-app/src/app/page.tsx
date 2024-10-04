@@ -9,7 +9,7 @@ export default function Home() {
         <h1 className="text-7xl font-bold text-center mt-7">Qualidade em Software</h1>
       </section>
       <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
-        <Link className="btn-link" href={""}>Projetos</Link>
+        <Link className="btn-link" href={"/pages/Projeto"}>Projetos1</Link>
         <Link className="btn-link" href={""}>Projetos</Link>
         <Link className="btn-link" href={""}>Projetos</Link>
         <Link className="btn-link" href={""}>Projetos</Link>

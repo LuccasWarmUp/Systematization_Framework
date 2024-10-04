@@ -8,7 +8,7 @@ export default function Header() {
         <header>
             <h1 className="text-4xl">WarmUP</h1>
             <div>
-                <Link className="link" href={""}>Link</Link>
+                <Link className="link" href={"/"}>Link</Link>
                 <Link className="link" href={""}>Link</Link>
                 <Link className="link" href={""}>Link</Link>
             </div>

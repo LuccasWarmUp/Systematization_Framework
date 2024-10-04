@@ -14,7 +14,6 @@ export default function Home() {
         <Link className="btn-link" href={""}>Projetos</Link>
         <Link className="btn-link" href={""}>Projetos</Link>
         <Link className="btn-link" href={""}>Projetos</Link>
-        <Link className="btn-link" href={""}>Projetos</Link>
       </section>
     </div>
   );

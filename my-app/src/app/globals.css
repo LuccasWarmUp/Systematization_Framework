@@ -2,26 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
+:root {
+  --background: #F5F5F5;
+  --foreground: #449D34;
+  font-size: 62.5%; /* 1rem = 10px */
+  font-family: "Source Sans 3", sans-serif;
+}
+
+/*
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #383838;
+    --foreground: #449D34;
   }
+}
+*/
+
+html, body {
+  min-height: 100dvh;
 }
 
 body {
+  font-size: 1.6rem;
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 0rem 5rem;
+
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+
+
+.btn-link {
+  margin: 3rem;
+  padding: 2rem;
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: var(--foreground);
+  border-radius: 1.5rem;
+  border: 0.5rem solid var(--foreground);
+  background: var(--background);
+  transition: background 0.3s ease-in-out;
+}
+.btn-link:hover {
+  color: var(--background);
+  background: var(--foreground);
 }
